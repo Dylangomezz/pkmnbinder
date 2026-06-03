@@ -3,7 +3,8 @@ import React from 'react';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Pie } from 'react-chartjs-2';
 import type { PokemonCardData } from '../services/pokemonApi';
-import { DollarSign, Layers } from 'lucide-react';
+//import { DollarSign, Layers } from 'lucide-react';
+import { DollarSign, Boxes } from 'lucide-react';
 
 // Registramos os componentes essenciais do Chart.js
 ChartJS.register(ArcElement, Tooltip, Legend);
@@ -89,7 +90,7 @@ export const BinderStats: React.FC<BinderStatsProps> = ({ binder }) => {
       {/* CARD DE TOTAL DE CARTAS */}
       <div className="bg-gray-900 border border-gray-800 rounded-xl p-6 flex items-center gap-4 shadow-md">
         <div className="p-3 bg-cyan-500/10 text-cyan-400 rounded-lg">
-          <Layers className="w-6 h-6" />
+          <Boxes className="w-6 h-6" />
         </div>
         <div>
           <p className="text-gray-400 text-xs font-medium uppercase tracking-wider">Total de Cartas</p>

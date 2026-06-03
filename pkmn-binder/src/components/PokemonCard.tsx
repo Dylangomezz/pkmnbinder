@@ -1,14 +1,14 @@
 // src/components/PokemonCard.tsx
 import React from 'react';
-import { type PokemonCardData } from '../services/pokemonApi';
+import type { PokemonCardData } from '../services/pokemonApi';
 import { Plus } from 'lucide-react';
 
 interface PokemonCardProps {
   card: PokemonCardData;
+  onAddToBinder: (card: PokemonCardData) => void; // Nova propriedade para tratar o clique
 }
 
-export const PokemonCard: React.FC<PokemonCardProps> = ({ card }) => {
-  // Pega o preço de mercado se estiver disponível
+export const PokemonCard: React.FC<PokemonCardProps> = ({ card, onAddToBinder }) => {
   const price = card.tcgplayer?.prices?.holofoil?.market || card.tcgplayer?.prices?.normal?.market || 0;
 
   return (
@@ -33,7 +33,11 @@ export const PokemonCard: React.FC<PokemonCardProps> = ({ card }) => {
         </div>
       </div>
 
-      <button className="mt-4 w-full bg-cyan-600 hover:bg-cyan-500 text-white text-sm font-medium py-2 px-3 rounded-lg flex items-center justify-center gap-1 transition-colors">
+      {/* Dispara a função passando os dados desta carta específica */}
+      <button 
+        onClick={() => onAddToBinder(card)}
+        className="mt-4 w-full bg-cyan-600 hover:bg-cyan-500 text-white text-sm font-medium py-2 px-3 rounded-lg flex items-center justify-center gap-1 transition-colors"
+      >
         <Plus className="w-4 h-4" /> Adicionar ao Binder
       </button>
     </div>

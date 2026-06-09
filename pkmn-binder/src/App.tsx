@@ -251,7 +251,7 @@ export default function App() {
       {/* HEADER / NAVBAR DE VIDRO */}
       <header className="max-w-7xl mx-auto bg-slate-900/40 backdrop-blur-md border border-slate-800/60 rounded-2xl p-4 md:p-6 mb-8 flex flex-col md:flex-row items-center justify-between gap-6 shadow-2xl">
         <div className="flex items-center gap-3">
-          <img src="/pokebola.png" alt="" className="w-12 h-12 object-contain rounded-xl filter drop-shadow-[0_2px_8px_rgba(6,182,212,0.4)]"/>
+          <img src="pokebola.png" alt="" className="w-12 h-12 object-contain rounded-xl filter drop-shadow-[0_2px_8px_rgba(6,182,212,0.4)]"/>
           <div>
             <h1 className="text-xl md:text-2xl font-black tracking-wider bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
               POKEMON TCG BINDER

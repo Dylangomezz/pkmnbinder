@@ -1,8 +1,7 @@
 // src/App.tsx
 import { useState, useEffect, useRef } from 'react';
 import { 
-  Scan, 
-  Award, 
+  Scan,  
   AlertCircle, 
   Loader2, 
   Heart, 

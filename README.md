@@ -1,7 +1,7 @@
 # 📱 PKMN Binder — Gerenciador de Coleções Pokémon TCG
 
 <div align="center">
-  <img src="./public/logo-binder.png" alt="PKMN Binder Logo" width="120" style="border-radius: 12px; filter: drop-shadow(0 0 10px rgba(6, 182, 212, 0.5));" />
+  <img src="./pkmn-binder/public/pokebola.png" alt="PKMN Binder Logo" width="120" style="border-radius: 12px; filter: drop-shadow(0 0 10px rgba(6, 182, 212, 0.5));" />
   <p><strong>Fichário Virtual Premium e Analítico para Colecionadores de Pokémon TCG</strong></p>
 
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />

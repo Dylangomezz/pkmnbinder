@@ -17,7 +17,7 @@
 ## 🌐 Demonstração ao Vivo
 
 A aplicação encontra-se publicada e totalmente funcional na Web através do GitHub Pages:
-👉 **[Aceder ao PKMN Binder](https://dylangomezz.github.io/pkmnbinder/)**
+👉 **[Acesso o PKMN Binder](https://dylangomezz.github.io/pkmnbinder/)**
 
 ---
 
